@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 
@@ -82,6 +83,47 @@ public class Sprite
 		children.Add(s);
 	}
 
+    public void update()
+    {
+        act();
+        foreach(Sprite s in children)
+        {
+            s.update();
+        }
+    }
 
+}
 
+public class SlideSprite : Sprite
+{
+
+    //instance variable
+    public int TargetX = 0;
+    public int TargetY = 0;
+    public int Velocity = 0;
+    public Image image;
+
+    //methods
+    public SlideSprite(Image img)
+    {
+        image = img;
+        X = 0;
+        Y = 0;
+    }
+    
+    public override void act()
+    {
+        if (X + Velocity < TargetX) X += Velocity;
+        else if (X - Velocity > TargetX) X -= Velocity;
+        else if (Math.Abs(X - TargetX) <= Velocity) X = TargetX;
+
+        if (Y + Velocity < TargetY) Y += Velocity;
+        else if (Y - Velocity > TargetY) Y -= Velocity;
+        else if (Math.Abs(Y - TargetY) <= Velocity) Y = TargetY;
+    }
+
+    public override void paint(Graphics g)
+    {
+        g.DrawImage(image, X - (image.Width / 2), Y - (image.Height / 2));
+    }
 }

@@ -25,3 +25,12 @@ C:\Users\Kingdommaster9\Downloads\Game-Programming-Spring-2017--master\Game-Prog
 C:\Users\Kingdommaster9\Downloads\Game-Programming-Spring-2017--master\Game-Programming-Spring-2017--master\assignment02\FormExample\obj\Debug\FormExample.csproj.GenerateResource.Cache
 C:\Users\Kingdommaster9\Downloads\Game-Programming-Spring-2017--master\Game-Programming-Spring-2017--master\assignment02\FormExample\bin\Debug\FormExample.exe
 C:\Users\Kingdommaster9\Downloads\Game-Programming-Spring-2017--master\Game-Programming-Spring-2017--master\assignment02\FormExample\bin\Debug\FormExample.pdb
+C:\Users\Kingdommaster9\Desktop\New folder\assignment02\FormExample\bin\Debug\FormExample.exe.config
+C:\Users\Kingdommaster9\Desktop\New folder\assignment02\FormExample\obj\Debug\FormExample.exe
+C:\Users\Kingdommaster9\Desktop\New folder\assignment02\FormExample\obj\Debug\FormExample.pdb
+C:\Users\Kingdommaster9\Desktop\New folder\assignment02\FormExample\bin\Debug\FormExample.exe
+C:\Users\Kingdommaster9\Desktop\New folder\assignment02\FormExample\bin\Debug\FormExample.pdb
+C:\Users\Kingdommaster9\Desktop\New folder\assignment02\FormExample\obj\Debug\FormExample.csprojResolveAssemblyReference.cache
+C:\Users\Kingdommaster9\Desktop\New folder\assignment02\FormExample\obj\Debug\FormExample.Form1.resources
+C:\Users\Kingdommaster9\Desktop\New folder\assignment02\FormExample\obj\Debug\FormExample.Properties.Resources.resources
+C:\Users\Kingdommaster9\Desktop\New folder\assignment02\FormExample\obj\Debug\FormExample.csproj.GenerateResource.Cache
